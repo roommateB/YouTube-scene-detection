@@ -51,6 +51,7 @@ Do 'main scene recognition' first, and then do 'sub scene recognition' within ma
   - home:
 
     - existence of yolo_label 'home'
+    - existence of ocr_detection '貼文'
     
   - shorts:
 
