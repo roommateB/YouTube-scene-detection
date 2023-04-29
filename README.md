@@ -35,6 +35,10 @@ YouTube 截圖場景辨識
 - 放入 Google OCR API 的 credentials:
 
   - `credentials` (預設路徑: `./processor/text_processor/credentials.json`)
+  
+- 放入 test_set:
+
+  - `test_set` (預設路徑: `./test_set`)
 
 ### Usage
 
