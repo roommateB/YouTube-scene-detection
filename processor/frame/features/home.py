@@ -22,8 +22,8 @@ class HomeRecognizer(BaseRecognizer):
             >= 7
         )
 
-    # def check_is_comment(self) -> bool:
-    #     return self._match_keyword("貼文留言")
+    def check_is_comment(self) -> bool:
+        return self._match_keyword("貼文")
 
     def check_post_existed(self) -> bool:
         return self._check_label_exist("comment")

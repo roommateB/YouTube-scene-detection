@@ -41,6 +41,8 @@ class FrameRecognizer:
                 frame.is_comment = True
 
         elif frame_type == FrameType.HOME:
+            if home_recognizer.check_is_comment():
+                frame.is_comment = True
             if home_recognizer.check_post_existed():
                 frame.post_existed = True
             if home_recognizer.check_is_announcement():
